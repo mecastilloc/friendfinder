@@ -5,6 +5,9 @@ A compatibility-based "Friend Finder" application
 ## COMMITS
 
 **_Commit 4_**
+html routes in doferent location function finished.
+
+**_Commit 4_**
 
 Created basic server connection, html navigation tested from server file and html files in different location. 
 
