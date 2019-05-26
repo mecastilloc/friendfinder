@@ -3,8 +3,8 @@
 // Dependencies
 // =============================================================
 var express = require("express");
-var path = require("path");
-const HtmlR = require("./routing/htmlRoutes");
+//var path = require("path");
+const html = require("./routing/htmlRoutes");
 // Sets up the Express App
 // =============================================================
 var app = express();
@@ -20,12 +20,6 @@ app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
 
+//app.use("/api", apiR)
 
-  app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, path.sep, "public", "home.html"));
-});
-
-app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, path.sep, "public","survey.html"));
-});
-
+app.use("/", html);
