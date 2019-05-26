@@ -4,8 +4,14 @@ A compatibility-based "Friend Finder" application
 
 ## COMMITS
 
+**_Commit 5_**
+added POST function to push new data to friends array.
+
+**_Commit 5_**
+added connection to `friends.js` file to retrieve friends array.
+
 **_Commit 4_**
-html routes in doferent location function finished.
+html routes in diferent location function finished.
 
 **_Commit 4_**
 
