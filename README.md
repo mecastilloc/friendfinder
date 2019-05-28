@@ -114,23 +114,28 @@ For local use:
 
 ## COMMITS
 
-**_Commit 12_**
+**_Commit 14_**
+
+Small html fixes.
+
+
+**_Commit 13_**
 
 Spelling changes in html files.
 
 
-**_Commit 11_**
+**_Commit 12_**
 
 Change of var port for the heroku deploy to `var PORT = process.env.PORT || 3000;`
 
 
-**_Commit 10_**
+**_Commit 11_**
 
 Final code formatting, Readme file updated.
 
 **_Commit 10_**
 
-Added rout in server to use local css and local survey's java script logic. Mayor css configuration.
+Added route in server to use local css and local survey's java script logic. Mayor css configuration.
 
 **_Commit 9_**
 
