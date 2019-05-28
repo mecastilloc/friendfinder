@@ -1,0 +1,55 @@
+body{
+    color: darkorange;
+    background-color: black;
+}
+
+
+
+.jumbotron{
+    color: darkorange; 
+    background-color: black; 
+    border-color: white; 
+    border-style: solid; 
+    max-width: 800px; 
+    margin-top: 50 px;
+}
+
+
+#match-img {
+    width: 300px; 
+    height: 400px;
+}
+
+
+.modal-title{
+    text-align: left;
+    font-weight: bolder;
+}
+
+/* .chosen-select{
+    background-color: black;
+} */
+
+/* .form-control{
+    background-color: black; 
+    border: 1px solid orangered;
+    border-radius: 5px; 
+} */
+
+input[type=text] {
+    background-color: black; 
+    border: 1px solid orangered;
+    border-radius: 5px; 
+    color: orange;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width: 50%;
+}
+
+input[type=text]:focus {
+    background-color: black; 
+    color: orange;
+    border: 1px solid greenyellow;
+    width: 80%;
+   
+}
