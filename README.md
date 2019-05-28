@@ -114,6 +114,10 @@ For local use:
 
 ## COMMITS
 
+**_Commit 15_**
+
+survey.js syntax error fixed.
+
 **_Commit 14_**
 
 Small html fixes.

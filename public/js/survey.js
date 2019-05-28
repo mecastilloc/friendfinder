@@ -47,8 +47,8 @@ $("#submit").on("click", function (event) {
   if (validateForm()) {
 // Create an object for the user"s data
     var userData = {
-      name: $("#name").val().trimm(),
-      photo: $("#photo").val().trimm(),
+      name: $("#name").val(),
+      photo: $("#photo").val(),
       scores: [
         $("#q1").val(),
         $("#q2").val(),
