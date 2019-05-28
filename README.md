@@ -2,7 +2,7 @@
 
 A compatibility-based "Friend Finder" application
 
-[Live Demo](https://youtu.be/5aV5udYJc1o)
+[Live Demo](https://mc-friend-finder.herokuapp.com/)
 
 ## Overview
 
@@ -113,6 +113,11 @@ For local use:
 
 
 ## COMMITS
+
+**_Commit 11_**
+
+Change of var port to the heroku deploy to `var PORT = process.env.PORT || 3000;`
+
 
 **_Commit 10_**
 
