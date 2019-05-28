@@ -1,6 +1,5 @@
-
+//Initial friends data
 var friends =[
-    
       {
         "name": "Ahmed",
         "photo": "https://www.simula.no/sites/default/files/styles/employee-detail/public/user/images/img_4912.jpg?itok=UyacJ0TA",
@@ -97,7 +96,6 @@ var friends =[
         "5"
         ]
         },
-      
 ];
 
 module.exports = friends;

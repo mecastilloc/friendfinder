@@ -1,45 +1,54 @@
-body{
-    color: darkorange;
+html {
+    height: 100%;
     background-color: black;
 }
 
+body {
+    color: darkorange;
+    background-color: black;
+    margin: auto;
+    max-width: 960px;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+}
 
+.outter-div {
+    margin: auto;
+    display: block;
+    background-color: black;
+   
+}
 
-.jumbotron{
-    color: darkorange; 
-    background-color: black; 
-    border-color: white; 
-    border-style: solid; 
-    max-width: 800px; 
+.inner-div{
+    border: solid 2px white;
+    padding: 10px 15px 15px 15px;
+}
+
+.jumbotron {
+    color: darkorange;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    max-width: 800px;
     margin-top: 50 px;
 }
 
-
 #match-img {
-    width: 300px; 
-    height: 400px;
+    width: 200px;
+    height: 300px;
 }
 
-
-.modal-title{
+.modal-title {
     text-align: left;
     font-weight: bolder;
 }
 
-/* .chosen-select{
-    background-color: black;
-} */
-
-/* .form-control{
-    background-color: black; 
-    border: 1px solid orangered;
-    border-radius: 5px; 
-} */
-
 input[type=text] {
-    background-color: black; 
+    background-color: black;
     border: 1px solid orangered;
-    border-radius: 5px; 
+    border-radius: 5px;
     color: orange;
     -webkit-transition: width 0.5s ease-in-out;
     transition: width 0.5s ease-in-out;
@@ -47,9 +56,13 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    background-color: black; 
+    background-color: black;
     color: orange;
     border: 1px solid greenyellow;
     width: 80%;
-   
+}
+
+.modal-content {
+    background-color: black;
+    border: solid 2px white;
 }
