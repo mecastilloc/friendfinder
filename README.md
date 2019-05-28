@@ -114,9 +114,14 @@ For local use:
 
 ## COMMITS
 
+**_Commit 12_**
+
+Spelling changes in html files.
+
+
 **_Commit 11_**
 
-Change of var port to the heroku deploy to `var PORT = process.env.PORT || 3000;`
+Change of var port for the heroku deploy to `var PORT = process.env.PORT || 3000;`
 
 
 **_Commit 10_**
