@@ -26,7 +26,7 @@ for (var selector in config) {
 $("#submit").on("click", function (event) {
   event.preventDefault();
 
-// Form validation Function
+  // Form validation Function
   function validateForm() {
     var isValid = true;
     $(".form-control").each(function () {
@@ -34,7 +34,7 @@ $("#submit").on("click", function (event) {
         isValid = false;
       }
     });
-// Aplying validation
+    // Aplying validation
     $(".chosen-select").each(function () {
       if ($(this).val() === "") {
         isValid = false;
@@ -43,9 +43,9 @@ $("#submit").on("click", function (event) {
     return isValid;
   }
 
-// If all required fields are filled
+  // If all required fields are filled
   if (validateForm()) {
-// Create an object for the user"s data
+    // Create an object for the user"s data
     var userData = {
       name: $("#name").val(),
       photo: $("#photo").val(),
@@ -63,13 +63,17 @@ $("#submit").on("click", function (event) {
       ]
     };
 
-// AJAX post the data to the friends API.
+    // AJAX post the data to the friends API.
     $.post("/api/friends", userData, function (data) {
 
-// Grab the result (res.json(match) from the AJAX post so that the best match's name and photo are displayed.
+      // Grab the result (res.json(match) from the AJAX post so that the best match's name and photo are displayed.
       $("#match-name").text(data.name);
       $("#match-img").attr("src", data.photo);
-      $("#results-modal").modal("toggle");
+      $("#results-modal").modal({
+        show: true,
+        backdrop: 'static',
+        keyboard: false
+      });
     });
   } else {
     $("#alert-txt").text("Please fill out all fields before submitting!")

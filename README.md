@@ -114,6 +114,10 @@ For local use:
 
 ## COMMITS
 
+**_Commit 16_**
+
+Added code to prevent modals to disapear unless press close button.
+
 **_Commit 15_**
 
 survey.js syntax error fixed.
